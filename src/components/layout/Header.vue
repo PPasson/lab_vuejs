@@ -1,0 +1,45 @@
+<template>
+  <div id="header">
+    <ul>
+      <li>
+        <router-link to="/"><button>Home</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo1"><button>Demo1</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo2"><button>Demo2</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo3"><button>Demo3</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo4"><button>Demo4</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo5"><button>Demo5</button></router-link>
+      </li>
+      <li>
+        <router-link to="/demo6"><button>Demo6</button></router-link>
+      </li>
+      <br />
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "header",
+};
+</script>
+
+<style scoped>
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin-right: 8px;
+}
+</style>
