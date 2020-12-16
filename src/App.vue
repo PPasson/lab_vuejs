@@ -1,15 +1,16 @@
 <template>
   <div id='app'>
     <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/demo1">Demo1</router-link></li>
-      <li><router-link to="/demo2">Demo2</router-link></li>
-      <li><router-link to="/demo3">Demo3</router-link></li>
-      <li><router-link to="/demo4">Demo4</router-link></li>
-      <li><router-link to="/demo5">Demo5</router-link></li>
+      <li><router-link to="/"><button>Home</button></router-link></li>
+      <li><router-link to="/demo1"><button>Demo1</button></router-link></li>
+      <li><router-link to="/demo2"><button>Demo2</button></router-link></li>
+      <li><router-link to="/demo3"><button>Demo3</button></router-link></li>
+      <li><router-link to="/demo4"><button>Demo4</button></router-link></li>
+      <li><router-link to="/demo5"><button>Demo5</button></router-link></li>
+      <li><router-link to="/demo6"><button>Demo6</button></router-link></li>
+      <br>
     </ul>
     <router-view></router-view>
-    <span class="title">1234</span>
   </div>
 </template>
 

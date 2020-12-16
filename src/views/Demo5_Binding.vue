@@ -1,5 +1,6 @@
 <template>
   <div id="demo5">
+    <br>
     <img v-bind:src="imageUrl" v-bind:height="height" />
     <br />
     <a :href="link">Plai Website</a>
