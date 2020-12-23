@@ -1,45 +1,48 @@
 <template>
-  <div id='app'>
-    <Header/>
-    <router-view></router-view>
-    <Footer @onClock="onClock" title="Copyright 2020 by Sashigyu"/>
-    <div class="clock">{{time}}</div>
+  <div id="app">
+    <Header />
+      <Content />
+    
+
+    <Footer @onClock="onClock" title="Copyright 2020 by Sashigyu" />
+    <div class="clock">{{ time }}</div>
   </div>
 </template>
 
 <script>
-import Header from "@/components/layout/Header.vue"
-import Footer from "@/components/layout/Footer.vue"
-import moment from "moment"
+import Header from "@/components/layout/Header.vue";
+import Footer from "@/components/layout/Footer.vue";
+import Content from "@/components/layout/Content.vue";
+import moment from "moment";
 export default {
   name: "app",
   methods: {
-    onClock(value){
-      this.time = moment(value).format('MM/DD/YYYY hh:mm:ss')
+    onClock(value) {
+      this.time = moment(value).format("MM/DD/YYYY hh:mm:ss");
     }
   },
-  data(){
+  data() {
     return {
       time: ""
-    }
+    };
   },
   components: {
     Header,
-    Footer
+    Footer,
+    Content
   }
-
-}
+};
 </script>
 
 <style scoped>
-  
-  .title{
-        font-size: 30px;
-        color: green;
-    }
-  
-  .clock{
-    font-size: 12px;
-  }
-  
+.title {
+  font-size: 30px;
+  color: green;
+}
+
+.clock {
+  font-size: 12px;
+}
+
+
 </style>
