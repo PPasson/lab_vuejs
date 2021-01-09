@@ -22,6 +22,9 @@
       <li>
         <router-link to="/demo6"><button>Demo6</button></router-link>
       </li>
+      <li>
+        <router-link to="/demo7"><button>Demo7</button></router-link>
+      </li>
       <br />
     </ul>
   </div>
