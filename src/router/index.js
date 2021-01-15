@@ -9,6 +9,7 @@ import Demo5 from '../views/Demo5_Binding.vue'
 import Demo6 from '../views/Demo6_Form.vue'
 import Demo7 from '../views/Demo7_Slot.vue'
 import Demo8 from '../views/Demo8_Condition.vue'
+import Demo9 from '../views/Demo9_Loop.vue'
 
 Vue.use(VueRouter)
 
@@ -57,6 +58,11 @@ const routes = [
     path: '/demo8',
     name: 'demo8',
     component: Demo8
+  },
+  {
+    path: '/demo9',
+    name: 'demo9',
+    component: Demo9
   }
 ]
 
