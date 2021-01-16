@@ -40,6 +40,9 @@
       <li>
         <router-link to="/demo12"><button>Demo12 Ref.</button></router-link>
       </li>
+      <li>
+        <router-link to="/demo13"><button>Demo13 Filters</button></router-link>
+      </li>
       <br />
     </ul>
   </div>
