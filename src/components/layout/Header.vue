@@ -37,6 +37,9 @@
       <li>
         <router-link to="/demo11"><button>Demo11 Variable and State</button></router-link>
       </li>
+      <li>
+        <router-link to="/demo12"><button>Demo12 Ref.</button></router-link>
+      </li>
       <br />
     </ul>
   </div>
